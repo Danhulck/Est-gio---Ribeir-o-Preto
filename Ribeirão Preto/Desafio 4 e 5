@@ -1,0 +1,43 @@
+*DESAFIO 5 4* 
+_Descubra a lógica e complete o próximo elemento:_
+
+a) 1, 3, 5, 7, ___
+Próximo número: 9
+(Padrão: sequência de números ímpares)
+
+b) 2, 4, 8, 16, 32, 64, ____
+Próximo número: 128
+(Padrão: números dobrando)
+
+c) 0, 1, 4, 9, 16, 25, 36, ____
+Próximo número: 49
+(Padrão: sequência de quadrados perfeitos: 0²,1²,2²...)
+
+d) 4, 16, 36, 64, ____
+Próximo número: 100
+(Padrão: sequência de quadrados perfeitos de números pares: 2², 4², 6²,...)
+
+e) 1, 1, 2, 3, 5, 8, ____
+Próximo número: 13
+(Padrão: sequência de Fibonacci)
+
+f) 2, 10, 12, 16, 17, 18, 19, ____
+Próximo número: 20
+(Padrão: números entre 2 e 19, excluindo múltiplos de 3, exceto 12)
+
+*DESAFIO 5*
+Pergunta: Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?  
+
+
+para descobrir qual interruptor controla qual lâmpada:
+Você pode usar o calor das lâmpadas para descobrir quais interruptores as controlam:
+
+Ligue o primeiro interruptor e deixe-o ligado por alguns minutos.
+Desligue o primeiro interruptor e ligue o segundo interruptor.
+Vá até a sala das lâmpadas.
+Agora você pode identificar as lâmpadas assim:
+
+A lâmpada que está acesa corresponde ao segundo interruptor.
+A lâmpada que está apagada mas está quente corresponde ao primeiro interruptor (porque ficou ligada por algum tempo e depois foi desligada).
+A lâmpada que está apagada e fria corresponde ao terceiro interruptor, que nunca foi ligado.
+Com isso, você consegue descobrir qual interruptor controla cada lâmpada. (o゜▽゜)o💡
